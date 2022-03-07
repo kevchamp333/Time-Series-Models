@@ -16,8 +16,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import zscore
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
-from torch.utils.data import TensorDataset, DataLoader
 from sklearn.model_selection import train_test_split
+from torch.utils.data import TensorDataset, DataLoader
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 
 #####GPU
